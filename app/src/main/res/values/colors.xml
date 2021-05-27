@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amazing_200">#5396F8</color>
+    <color name="amazing_500">#307DEE</color>
+    <color name="amazing_700">#1767D0</color>
+    <color name="verynice_200">#F57C00</color>
+    <color name="verynice_500">#EF6C00</color>
+    <color name="verynice_700">#F36235</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sample Firebase Remote Configuration</string>
+    <string name="screens">Ecrans :</string>
+    <string name="load_configuration">Charger la remote config</string>
+    <string name="value">Valeur :</string>
+    <string name="tools">Outils :</string>
+    <string name="reset_local">Reset local</string>
+    <string name="reset_frc">Reset Firebase Remote Config</string>
+    <string name="nextlaunch">Prochain démarrage 🧐</string>
+    <string name="async">Asynchrone 🤨</string>
+    <string name="sync">Synchrone 🤓</string>
+    <string name="result">Données dans LocalConfig</string>
+</resources>

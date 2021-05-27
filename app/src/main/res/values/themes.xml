@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SampleFirebaseRemoteConfiguration" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/amazing_500</item>
+        <item name="colorPrimaryVariant">@color/amazing_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/verynice_200</item>
+        <item name="colorSecondaryVariant">@color/verynice_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <!-- Customize your theme here. -->
+        <item name="materialButtonStyle">@style/Widget.SampleFirebaseRemoteConfiguration.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.MaterialComponents.Button.OutlinedButton</item>
+    </style>
+
+    <style name="Widget.SampleFirebaseRemoteConfiguration.Button" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.SampleFirebaseRemoteConfiguration.Button</item>
+    </style>
+
+    <style name="Widget.SampleFirebaseRemoteConfiguration.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.SampleFirebaseRemoteConfiguration.Button</item>
+    </style>
+
+    <style name="ThemeOverlay.SampleFirebaseRemoteConfiguration.Button" parent="">
+        <item name="colorPrimary">@color/verynice_200</item>
+    </style>
+</resources>
